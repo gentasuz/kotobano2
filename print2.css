@@ -1,0 +1,44 @@
+.noPrint{display:none;}
+
+/* 印刷用 */
+@page {
+   size:100mm 148mm; /* 148mmだと若干ずれたのでpxで指定 */
+   margin:0;
+   padding:0;
+}
+
+.noScreen{
+    display:block;
+}
+
+.printblock{
+    width:90%;
+    height: 40%;
+    padding:5%;
+}
+
+.q1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.q2{
+    text-orientation: upright;
+	/* writing-mode: vertical-rl; */
+    /* text-align: right; */
+    margin-right: 0;
+}
+
+h1{
+    font-family: 'Klee One', cursive;
+    font-size: 12pt;
+}
+
+p{
+    font-family: 'Klee One', cursive;
+    font-size:10pt;
+}
+
+

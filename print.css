@@ -1,0 +1,58 @@
+.noPrint{display:none;}
+p{
+    display:none;
+}
+.col1 li {
+    width: calc(200% / 3);
+    height: calc(200%);
+
+    background: #ffffff;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright; /* すべて縦方向に表示 */
+    padding: 20px;
+    border: 1px solid #eee;
+    vertical-align: middle;
+    float: left;
+}
+
+  
+  .col3 li {
+    width: calc(100% / 3);
+    height: calc(200%);
+    background: #ffffff;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright; /* すべて縦方向に表示 */
+    padding: 20px;
+    border: 1px solid #eee;
+    vertical-align: middle;
+    float: left;
+  }
+  
+  .col ul,li {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+.title1{
+    /* text-align:center; 上下で中央揃え */
+    font-family: 'Shippori Mincho';
+    font-size: 9pt;
+    color: #BFC7DD;
+    text-align:left;
+}
+.body1{
+    font-family: 'Shippori Mincho';
+    font-size: 8pt;
+    color: #BFC7DD;
+    text-align:left;
+}
+.body2{
+    font-family: 'Shippori Mincho';
+    font-size: 8pt;
+    color: #BFC7DD;
+    text-align:left;
+}

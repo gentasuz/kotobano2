@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>sample</title>
+        <link rel="stylesheet" href="style4.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans JP">
+        <link rel="stylesheet" href="print.css" media="print">
+        <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel= "stylesheet">
+        <link href= "https://fonts.googleapis.com/icon?family=Shippori Mincho" rel= "stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+
+    <body>
+        <div class="fullPageScroll">
+            <section id="section1" class="section section1">
+                <img src="hp_kotobano1_16-9.png">
+                <a class="scroll" href="#next-section">
+                    <span></span>
+                </a>
+                <div class="triangle"></div>
+            </section>
+            <section id="section2" class="section section2">
+                <h1>見失いがちな、あなただけのことばを手元に。</h1>
+                <br><br><br>
+                <p>あなたが大切に想うことばや記憶は、<br>日常の喧騒と共に薄れていくもの。<br>
+                    過ぎ去る日々の中、多くの言葉に触れ続けている<br>あなたを救ってくれた、慈しんでくれたことば。<br>
+                    あなただけの想いと記憶がこもったことばを<br>いま、その手に。
+                </p>
+            </section>
+            <section id="section3" class="section section3">
+                <h1>作品を体験する上でのやくそく</h1>
+                <br><br><br>
+                <p>本作品では、あなたのことを深く知るために<br>対話を通して様々な質問を問いかけます。<br><br>
+                    回答された内容は、<br>記録・保存・分析などは一切されません。<br><br></p><p class="underline">また、作品を体験している風景も誰からもみられていません。</P>
+            </section>
+            <section id="section4" class="section section4">
+                <h1>作品を体験する上でのやくそく</h1>
+                <br><br><br><br>
+                <p>- あなただけが持っている記憶と感情に素直に向き合うこと<br>
+                    - 等身大のあなたらしいことばで回答すること<br><br></p>
+                    <br><p>
+                    この２つを大切にぜひ本作品を体験してください。<br>
+                    あなただけの想いと記憶が根ざしたことばに<br>きっと出会えるはずです。</p>
+            </section>
+            <section id="section5" class="section section5">
+                <img src="hp_kotobano1_16-9.png">
+            </section>
+            <section id="section6" class="section section6">
+                <div id= "chatbot">
+                    <div id= "chatbot-header">
+                    <div id= "chatbot-logo"></div>
+                    <i id= "chatbot-zoom-icon" class="material-icons waves-effect waves-light" onclick= "chatbotZoom()">fullscreen</i>
+                    </div>
+                    
+                    <div id= "chatbot-body">
+                    <ul id= "chatbot-ul"></ul>
+                    </div>
+                    
+                    <!--入力場所，送信ボタン-->
+                    <form onsubmit= "return false">
+                    <div id= "chatbot-footer">
+                        <input type= "text" id= "chatbot-text" class= "browser-default" placeholder= "テキストを入力" autocomplete="off">
+                        <input type= "submit" value= "送信" id= "chatbot-submit">
+                    </div>
+                    </form>
+                    
+                </div>
+            </section>
+            <section id="section7" class="section section7">
+                <img src="hp_kotobano1_16-9.png">
+            </section>
+            <section id="section8" class="section section8">
+                <div class="noPrint">
+                    <br><br><br><br><br><br>
+                    <button id="print" class="printbutton">印刷する</button>
+                    <p>上の印刷ボタンより「印刷」を押してください。</p><br><br>
+                    <br><br><br><br><br>
+                </div>
+                <div class="noScreen"> 
+                    <ul class="col1">
+                        <li>
+                            <h3 class="title1">あなたが大切にしているストーリー</h3>
+                        </li>
+                    </ul>
+                    <ul class="col3">
+                        <li>
+                            <h3 class="title1">あなたが大切にしている言葉</h3>
+                        </li>
+                      </ul>
+                </div>
+                <div class="sec8">
+                    
+                    <p>発行が完了しましたら「ことばのまもり」を折りたたみ、<br>お手元のお守り袋にお入れください。<br>
+                    袋どめのシールも置いてあります。<br>
+                    完了しましたらスクロールしてください。</p>
+                </div>
+            </section>
+            <section id="section9" class="section section9">
+                <div class="atogaki"> 
+                    <p>ご体験ありがとうございました。<br>
+                        薄れてしまっていたあの頃のことばや記憶に想いを馳せることはできたでしょうか。<br>
+                        あなたが大切に想うことばには、かけがえのない記憶や感情が籠っています。<br>
+                        手元に「ことばのまもり」をおいて、大切なことばと記憶と共に日常を過ごしてみてください。<br>
+                        また、自分らしさを見失ってしまった時や他者からの言葉に苦しさを覚えた時。<br><br>
+                        「ことばのまもり」を再び開き、あなたのことばに向き合ってみてください。<br>
+                        きっとあなたを救う、まもってくれることばがそこにあるはずです。</p>
+                    <button>終了する</button>
+                </div>
+            </section>
+          </div>
+          <nav id="pagination" class="pagination">
+            <a id="pagination1" href="#section1"></a>
+            <a id="pagination2" href="#section2"></a>
+            <a id="pagination3" href="#section3"></a>
+            <a id="pagination4" href="#section4"></a>
+            <a id="pagination5" href="#section5"></a>
+            <a id="pagination6" href="#section6"></a>
+            <a id="pagination7" href="#section7"></a>
+            <a id="pagination8" href="#section8"></a>
+            <a id="pagination9" href="#section9"></a>              
+          </nav>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="test4.js"></script>
+    </body>
+</html>
